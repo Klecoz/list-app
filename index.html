@@ -3,10 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>ListMaker</title>
-  <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div id="mainContainer">
+  <div class="header">
+    <img class="logo" src="img/notepad2.svg" />
+    <h1>ListMaker</h1>
+  </div>
 
+  <div class="instructionsInput">
+    <h3>Add your items to the list below. Check them off as you get them!</h3>
+    <input type="text" name="item" placeholder="Add List Item">
+  </div>
+
+  <div class="lists">
+    <a href="#" class="myButton">Reset Lists</a>
+    <ul>
+      <li><input type="checkbox" name="items"> Bananas</input></li>
+      <li><input type="checkbox" name="items"> Apples</input></li>
+      <li><input type="checkbox" name="items" checked="checked"> Pears</input></li>
+      <li><input type="checkbox" name="items" checked="checked"> Pineapples</input></li>
+      <li><input type="checkbox" name="items" checked="checked"> Oranges</input></li>
+    </ul>
+  </div>
+  <div class="footer">
+  </div>
+  </div>
 </body>
 </html>
