@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat|Crimson+Text);
+
 /* Main Styles */
 
 * {
@@ -5,6 +7,18 @@
   -webkit-padding-start: 0px;
   text-align: center;
 }
+
+body {
+  font-family: 'Crimson Text', serif;
+  background-color: #2C3E50;
+  color: #E3EAEE;
+}
+
+
+h1, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 
 .logo {
   width:150px;
@@ -18,7 +32,7 @@
 .masthead, .instructionsInput, .lists {
   margin-left: auto;
   margin-right:auto;
-  width: 100%;
+  max-width: 38em;
 }
 
 .masthead {
@@ -26,7 +40,16 @@
 }
 
 .lists {
-  background-color: #E67E22;
+  padding: 15px 0;
+}
+
+.lists li {
+  border-bottom: dotted #000;
+  background-color: #34495E;
+}
+
+.lists input[type="checkbox"]:checked {
+  text-decoration: line-through;
 }
 
 .instructionsInput {
@@ -53,6 +76,16 @@ input[type="text"]:focus {
 }
 
 
+/* Styles for Done/Not Done */
+
+.notDone {
+  font-size: 2.5em;
+}
+
+.done {
+  text-decoration: line-through;
+  font-size: 1em;
+}
 
 /* Button Styles */
 

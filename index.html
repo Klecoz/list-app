@@ -5,6 +5,7 @@
   <title>ListMaker</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <div id="mainContainer">
@@ -14,18 +15,18 @@
   </div>
 
   <div class="instructionsInput">
-    <h3>Add your items to the list below. Check them off as you get them!</h3>
-    <input type="text" name="item" placeholder="Add List Item">
+    <h3>Add your items to the list below. Click them to cross them out!</h3>
+    <input type="text" name="item" placeholder="Add List Item [Enter]">
   </div>
 
   <div class="lists">
     <a href="#" class="myButton">Reset Lists</a>
     <ul>
-      <li><input type="checkbox" name="items"> Bananas</input></li>
-      <li><input type="checkbox" name="items"> Apples</input></li>
-      <li><input type="checkbox" name="items" checked="checked"> Pears</input></li>
-      <li><input type="checkbox" name="items" checked="checked"> Pineapples</input></li>
-      <li><input type="checkbox" name="items" checked="checked"> Oranges</input></li>
+      <li class="notDone">Bananas</input></li>
+      <li class="notDone">Apples</input></li>
+      <li class="notDone">Pears</input></li>
+      <li class="done">Pineapples</li>
+      <li class="done">Oranges</li>
     </ul>
   </div>
   <div class="footer">
