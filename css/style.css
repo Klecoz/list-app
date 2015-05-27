@@ -45,7 +45,6 @@ h1, h3 {
 
 .lists li {
   border-bottom: dotted #000;
-  background-color: #34495E;
 }
 
 .lists input[type="checkbox"]:checked {
@@ -54,6 +53,11 @@ h1, h3 {
 
 .instructionsInput {
   margin-bottom: 15px;
+}
+
+.lists ul {
+  background-color: #34495E;
+  border-radius: 20px;
 }
 
 /* Input Box Styles */
