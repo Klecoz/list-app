@@ -69,6 +69,7 @@ input[type="text"] {
   margin: 0;
   font-family: sans-serif;
   font-size: 18px;
+  color: #000;
   appearance: none;
   box-shadow: none;
   border-radius: none;

@@ -13,12 +13,14 @@ $( document ).ready(function() {
     listAdd = $(this).val();
 
     //Test to show that variable has been changed.
-    console.log('success!');
-    console.log(listAdd);
+    //console.log('success!');
+    //console.log(listAdd);
 
 
     //Uses .append() to add a list item to the end of the list.
     $('.listsActual').append('<li class="notDone">' + listAdd + '</li>');
+
+    $('#listItem').val('');
   }
 });
 
