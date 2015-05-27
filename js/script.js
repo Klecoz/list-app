@@ -20,7 +20,12 @@ $( document ).ready(function() {
     //Uses .append() to add a list item to the end of the list.
     $('.listsActual').append('<li class="notDone">' + listAdd + '</li>');
   }
+});
 
+//When clicked, class changes to 'done' and crosses out/makes text smaller.
+$('.listsActual').on('click', '.notDone', function () {
+
+  $(this).toggleClass('done');
 });
 
 });
