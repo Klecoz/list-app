@@ -28,4 +28,11 @@ $('.listsActual').on('click', '.notDone', function () {
   $(this).toggleClass('done');
 });
 
+
+//Hides lis under .listsActual when the button is clicked.
+$('.myButton').on('click',  function () {
+
+  $('.listsActual > li').hide();
+});
+
 });
